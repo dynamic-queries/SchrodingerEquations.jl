@@ -1,5 +1,9 @@
 module SchrodingerEquations
+    using LinearAlgebra
+    using OrdinaryDiffEq
+    include("difference_matrices.jl")
+    include("potentials.jl")
+    include("solvers.jl")
 
-# Write your package code here.
-
+    export HarmonicPotential, FreePotential, RectangularWellPotential, DoubleWellPotential
 end

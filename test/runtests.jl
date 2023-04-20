@@ -1,6 +1,9 @@
 using SchrodingerEquations
 using Test
+using Plots
+using LinearAlgebra
+using LaTeXStrings
 
 @testset "SchrodingerEquations.jl" begin
-    # Write your tests here.
+    include("potentials.jl")
 end
