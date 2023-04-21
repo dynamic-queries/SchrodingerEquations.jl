@@ -6,4 +6,6 @@ module SchrodingerEquations
     include("solvers.jl")
 
     export HarmonicPotential, FreePotential, RectangularWellPotential, DoubleWellPotential
+    export II, IV, VI, VIII
+    export FDLaplacian
 end
